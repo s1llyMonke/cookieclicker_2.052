@@ -1,4 +1,4 @@
-﻿/*
+/*
 All this code is copyright Orteil, 2013-2023.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -1253,6 +1253,7 @@ Game.Launch=function()
 	//if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) Game.mobile=1;
 	//if (Game.mobile) Game.touchEvents=1;
 	//if ('ontouchstart' in document.documentElement) Game.touchEvents=1;
+	Game.Notify('Cookie Clicker, modded by Drew')
 	
 	var css=document.createElement('style');
 	css.type='text/css';
@@ -2260,7 +2261,7 @@ Game.Launch=function()
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			if (name=='andrew is gay') Game.CanClick == false
+			if (name=='andrew is gay') Game.cookies = (Game.cookies - Game.cookies)
 			if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.Win('God complex');
 			Game.recalculateGains=1;
 		}
