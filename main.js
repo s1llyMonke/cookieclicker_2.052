@@ -1352,6 +1352,10 @@ Game.Launch=function()
 	if (!EN) Game.updateLog+='<div class="listing" style="font-weight:bold;font-style:italic;opacity:0.5;">'+loc("Note: older update notes are in English.")+'</div>';
 	
 	Game.updateLog+=
+	'</div><div class="subsection update">'+
+	'<div class="title">13/12/2024 - drewmod</div>'+
+	'<div class="listing">&bull; added some secret names into the game (good luck finding them!)</div>'+
+	'<div class="listing">&bull; removed the debug menu because I do not like it</div>'
 	
 	'</div><div class="subsection update">'+
 	'<div class="title">07/05/2023 - often imitated, never duplicated</div>'+
@@ -2261,7 +2265,8 @@ Game.Launch=function()
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
 			if (name=='andrew is gay') Game.Win('Cheated cookies taste awful')
-			if (name=='shortstack') Game.Reset();
+			if (name=='peter') Game.RuinTheFun();
+			if (name=='shortstack') Game.HardReset();
 			if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.Win('God complex');
 			Game.recalculateGains=1;
 		}
