@@ -1253,7 +1253,6 @@ Game.Launch=function()
 	//if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) Game.mobile=1;
 	//if (Game.mobile) Game.touchEvents=1;
 	//if ('ontouchstart' in document.documentElement) Game.touchEvents=1;
-	Game.Notify('Cookie Clicker, modded by Drew')
 	
 	var css=document.createElement('style');
 	css.type='text/css';
