@@ -1354,8 +1354,7 @@ Game.Launch=function()
 	Game.updateLog+=
 	'</div><div class="subsection update">'+
 	'<div class="title">13/12/2024 - drewmod</div>'+
-	'<div class="listing">&bull; added some secret names into the game (good luck finding them!)</div>'+
-	'<div class="listing">&bull; removed the debug menu because I do not like it</div>'
+	'<div class="listing">&bull; regular Cookie Clicker but with funny secrets</div>'
 	
 	'</div><div class="subsection update">'+
 	'<div class="title">07/05/2023 - often imitated, never duplicated</div>'+
