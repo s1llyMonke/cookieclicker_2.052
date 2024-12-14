@@ -2261,7 +2261,7 @@ Game.Launch=function()
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
 			if (name=='andrew is gay') Game.Win('Cheated cookies taste awful')
-			if (name=='shortstack') Game.Win('Shortstack')
+			if (name=='shortstack') Game.Reset();
 			if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.Win('God complex');
 			Game.recalculateGains=1;
 		}
@@ -13362,7 +13362,6 @@ Game.Launch=function()
 		
 		order=30250;
 		new Game.Achievement('When the cookies ascend just right',loc("Ascend with exactly <b>%1</b>.",loc("%1 cookie",LBeautify(1e12))),[25,7]);Game.last.pool='shadow';
-		new Game.Achievement('Shortstack', "Shortstack!");Game.last.pool='shadow';
 		
 		
 		order=1050;
