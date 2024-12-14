@@ -2265,7 +2265,7 @@ Game.Launch=function()
 			if (name=='orteil') Game.Win('God complex');
 			if (name=='andrew is gay') Game.Win('Cheated cookies taste awful')
 			if (name=='peter') Game.RuinTheFun();
-			if (name=='shortstack') Game.HardReset(1);
+			if (name=='shortstack') Game.HardReset(2);
 			if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.Win('God complex');
 			Game.recalculateGains=1;
 		}
