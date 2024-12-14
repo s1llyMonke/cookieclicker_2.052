@@ -2260,7 +2260,8 @@ Game.Launch=function()
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			if (name=='andrew is gay') Game.cookies = (Game.cookies - Game.cookies)
+			if (name=='andrew is gay') Game.Win('Cheated cookies taste awful')
+			if (name=='shortstack') Game.Win('Shortstack')
 			if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.Win('God complex');
 			Game.recalculateGains=1;
 		}
