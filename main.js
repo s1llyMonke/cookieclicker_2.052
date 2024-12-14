@@ -2502,8 +2502,6 @@ Game.Launch=function()
 		{
 			if (!App) ajax('grab.txt',Game.GrabDataResponse);
 			else App.grabData(function(res){
-				Game.heralds=res?(res.playersN||1):1;
-				Game.heralds=Math.max(0,Math.min(100,Math.ceil(Game.heralds/100*100)/100));
 				l('heraldsAmount').textContent=Math.floor(Game.heralds);
 			});
 		}
