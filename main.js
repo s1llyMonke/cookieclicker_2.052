@@ -13360,7 +13360,8 @@ Game.Launch=function()
 		new Game.Achievement('Maillard reaction',loc("Harvest a <b>caramelized sugar lump</b>."),[29,27]);
 		
 		order=30250;
-		new Game.Achievement('When the cookies ascend just right',loc("Ascend with exactly <b>%1</b>.",loc("%1 cookie",LBeautify(1e12))),[25,7]);Game.last.pool='shadow';//this achievement is shadow because it is only achievable through blind luck or reading external guides; this may change in the future
+		new Game.Achievement('When the cookies ascend just right',loc("Ascend with exactly <b>%1</b>.",loc("%1 cookie",LBeautify(1e12))),[25,7]);Game.last.pool='shadow';
+		new Game.Achievement('Shortstack', "Shortstack!");Game.last.pool='shadow';
 		
 		
 		order=1050;
