@@ -2283,7 +2283,7 @@ Game.Launch=function()
 		AddEvent(Game.bakeryNameL,'click',Game.bakeryNamePrompt);
 		
 		Game.bakeryNameSet(Game.GetBakeryName());
-		Game.LoadMod("https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonster.js");
+		Game.LoadMod("cookiemonster.js");
 		
 		/*=====================================================================================
 		TOOLTIP
